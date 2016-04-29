@@ -3,6 +3,7 @@ var avoDealsList = require("../avo-deals-list");
 var pricePerAvo = require('../price-per-avo');
 var cheapestDeal = require("../cheapest-deal");
 var mostExpensive = require("../most-expensive");
+var averagePrice = require("../average-price");
 
 
 var avoString = "1 for R3, 2 for R7, 3 for R10, 5 for R14.50";
@@ -35,5 +36,9 @@ describe("best deal tests for avo", function() {
   it("should find the most expensive deal", function(){
     assert.equal(mostExpensive(avoDeals), 3.50);
   });
+
+  it("should find the average price across all the deals", function(){
+    assert.equal(averagePrice(avo_deals_list), )
+  })
 
 });
