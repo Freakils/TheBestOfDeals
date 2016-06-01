@@ -36,9 +36,9 @@ describe("best deal tests for avo", function() {
   it("should find the most expensive deal", function(){
     assert.equal(mostExpensive(avoDeals), 3.50);
   });
-
+  //
   it("should find the average price across all the deals", function(){
-    assert.equal(averagePrice(avo_deals_list), )
-  })
+    assert.equal(averagePrice(avo_deals_list), 29.875)
+  });
 
 });
