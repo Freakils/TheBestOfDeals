@@ -10,7 +10,7 @@ module.exports = function(lists) {
       });
     }
   }
-  console.log(myArray);
+  // console.log(myArray);
 
   var total = 1000;
   var shopName = "";
@@ -21,6 +21,6 @@ module.exports = function(lists) {
     }
   });
   //  console.log(total);
-  console.log(shopName);
+  // console.log(shopName);
   return shopName;
 }

@@ -12,9 +12,9 @@ module.exports = function(list){
 // console.log(myArray)
 
   var myApple = myArray.slice(0);
-     myApple.sort(function(a,b) {
-      return a.price - b.price;
+     myApple.sort(function(b,a) {
+      return b.price - a.price;
   });
-    // console.log(myApple);
+    console.log(myApple);
     return myApple;
 }
