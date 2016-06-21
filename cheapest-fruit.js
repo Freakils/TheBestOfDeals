@@ -5,7 +5,7 @@ module.exports = function(list) {
   for (var key in list) {
 
     for (var key1 in list[key]) {
-      
+       
       var newShop = list[key];
       var shopPrice = newShop[key1];
       //  console.log(shopPrice);
