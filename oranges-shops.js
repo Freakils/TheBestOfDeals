@@ -9,6 +9,6 @@ module.exports = function(list){
     }
   }
 
-  // console.log(myArray);
+  console.log(myArray);
   return myArray;
 }

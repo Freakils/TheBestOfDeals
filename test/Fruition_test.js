@@ -3,8 +3,8 @@ var cheapestOranges = require("../cheapest-oranges");
 var pricesOfApples = require("../prices-of-apples");
 var pricesOfApplesDes = require("../prices-of-apples-des");
 var cheapestFruit = require("../cheapest-fruit");
-// var sellerOfLowest = require("../seller-of-lowest");
 var orangesShops = require("../oranges-shops");
+var sellerOfLowest = require("../seller-of-lowest");
 
 var shops = {
   "woolingsworth": {
@@ -77,10 +77,6 @@ describe("best deal tests for fruition", function() {
     assert.equal(cheapestFruit(shops), "apples")
   })
 
-  // it("should return seller with the lowest price", function(){
-  //   assert.equal(sellerOfLowest(shops),"chockers")
-  // })
-  //
   it('it should return all the shops that sell oranges', function(){
     assert.deepEqual(orangesShops(shops),[
       { shop: 'woolingsworth' },
@@ -88,6 +84,10 @@ describe("best deal tests for fruition", function() {
       { shop: 'pickle pay' },
       { shop: 'kwakspar' }
     ])
+  })
+
+  it("should return seller with the lowest price", function(){
+    assert.equal(sellerOfLowest(shops),"chockers")
   })
 
 });
