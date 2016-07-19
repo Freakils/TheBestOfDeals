@@ -27,20 +27,20 @@ module.exports = function(lists) {
 
 
 
-var animalRatingsData = [
-    {
-      animal: "fish",
-      rating: 5
-    },
-    {
-      animal: "dog",
-      rating: 4
-    },
-  {
-    animal: "cheetah",
-    rating: 5
-  }
-];
+// var animalRatingsData = [
+//     {
+//       animal: "fish",
+//       rating: 5
+//     },
+//     {
+//       animal: "dog",
+//       rating: 4
+//     },
+//   {
+//     animal: "cheetah",
+//     rating: 5
+//   }
+// ];
 
 // var findRate = function(animalRatingsInput, rating){
 //
